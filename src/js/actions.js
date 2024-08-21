@@ -1,10 +1,9 @@
-import inputLimitation from './functions.js';
+import {validater, inputLimitation} from './functions.js';
 
 const input = document.querySelector('.cards-number');
+const but = document.querySelector('.check-but');
 
-input.addEventListener("keypress", function (evt) {
-    if (evt.which < 48 || evt.which > 57)
-    {
-        evt.preventDefault();
-    }
-});
+input.addEventListener("keypress", (evt) => inputLimitation(evt));
+
+but.addEventListener('click', () => console.log(validater(input.value)));
+
