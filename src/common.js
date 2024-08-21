@@ -1,3 +1,3 @@
 import './css/style.css';
-/* import './js/field.js';
-import './js/action.js' */;
+import './js/actions.js';
+/* import './js/action.js'; */

@@ -1,3 +1,46 @@
 body {
     background-color: #daded4;
 }
+.cards-number {
+    width: 235px;
+    height: 40px;
+    font-size: 20px;
+}
+.check-but {
+    width: 145px;
+    height: 40px;
+    border-radius: 5%;
+    border: 0;
+    background-color:  #5eb462;
+    color: aliceblue;
+}
+/* .cards__visa {
+    width: 45px;
+    height: 30px;
+} */
+.cards {
+    display: flex;
+    gap: 3px;
+    /* justify-content: space-between; */
+}
+
+.cards__card-item {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+    position: relative;
+    /* margin-left: 3px;  */  
+}
+
+/* .cards__card-item::before {
+    content:'';
+    background-color: rgba(0, 0, 0, 1);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.8;
+    z-index: 0;
+    border-radius: 10px;  
+} */
