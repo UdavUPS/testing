@@ -33,10 +33,10 @@ export function addCurtain() {
 
 export function inputNumLimitation(evt) {
     let mas = evt.split('');
-    if (mas.length < 14) {
+    if (mas.length < 16) {
         alert('Вы ввели номер не полностью');
         return false;
-    } else if (mas.length > 14) {
+    } else if (mas.length > 16) {
         alert('Вы ввели лишние цифры');
         return false;
     } else {
